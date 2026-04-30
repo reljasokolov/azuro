@@ -11,7 +11,7 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
-import { LuPhone, LuMail, LuMapPin, LuClock, LuMenu } from "react-icons/lu";
+import { LuPhone, LuMapPin, LuClock, LuMenu } from "react-icons/lu";
 
 export default function NavBar() {
   const navigate = useNavigate();
@@ -28,7 +28,7 @@ export default function NavBar() {
       position="sticky"
       top="0"
       zIndex="1000"
-      bg="rgba(255,255,255,0.7)"
+      bg="rgba(33, 129, 198, 0.7)"
       backdropFilter="blur(14px)"
       borderBottom="1px solid"
       borderColor="blackAlpha.100"
