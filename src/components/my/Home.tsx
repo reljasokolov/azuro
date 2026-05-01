@@ -5,13 +5,12 @@ import bannerMobile from "../../assets/bannerMobile.png";
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-  const smoothScrollTo = (targetId: string, offset = -50, duration = 700) => {
-    const el = document.getElementById(targetId);
 
+  const smoothScrollTo = (targetId: string, offset = -60, duration = 700) => {
+    const el = document.getElementById(targetId);
     if (!el) return;
 
     const start = window.pageYOffset;
-
     const target = el.getBoundingClientRect().top + window.pageYOffset + offset;
 
     const startTime = performance.now();
@@ -21,16 +20,12 @@ export default function Home() {
 
     const animate = (currentTime: number) => {
       const elapsed = currentTime - startTime;
-
       const progress = Math.min(elapsed / duration, 1);
-
       const ease = easeInOut(progress);
 
       window.scrollTo(0, start + (target - start) * ease);
 
-      if (progress < 1) {
-        requestAnimationFrame(animate);
-      }
+      if (progress < 1) requestAnimationFrame(animate);
     };
 
     requestAnimationFrame(animate);
@@ -49,12 +44,12 @@ export default function Home() {
 
   return (
     <Box
-      minH={{ base: "75vh", md: "100vh" }}
+      minH={{ base: "110vh", md: "100vh" }}
       position="relative"
       style={{
         backgroundImage: `url(${bg})`,
         backgroundSize: "cover",
-        backgroundPosition: isMobile ? "top center" : "center right",
+        backgroundPosition: isMobile ? "center 20%" : "center right",
         backgroundRepeat: "no-repeat",
       }}
     >
@@ -69,7 +64,8 @@ export default function Home() {
 
       <Flex
         position="absolute"
-        bottom={{ base: "12vh", md: "170px" }}
+        top={{ base: "60%", md: "70%" }}
+        transform="translateY(-50%)"
         left="20px"
         direction="column"
         gap={3}
@@ -77,21 +73,22 @@ export default function Home() {
         maxW="300px"
         zIndex="2"
       >
+        <a href="tel:+38110360292">
+          <Button
+            w="100%"
+            borderRadius="14px"
+            bg="yellow.400"
+            color="black"
+            fontWeight="600"
+            boxShadow="0 6px 20px rgba(0,0,0,0.25)"
+            _hover={{ bg: "yellow.300" }}
+          >
+            Pozovi odmah
+          </Button>
+        </a>
+
         <Button
-          size="md"
-          w={{ base: "80%", md: "70%" }}
-          borderRadius="14px"
-          bg="yellow.400"
-          color="black"
-          fontWeight="600"
-          boxShadow="0 6px 20px rgba(0,0,0,0.25)"
-          _hover={{ bg: "yellow.300" }}
-        >
-          Poruči odmah
-        </Button>
-        <Button
-          size="md"
-          w={{ base: "80%", md: "70%" }}
+          w="100%"
           borderRadius="14px"
           bg="whiteAlpha.200"
           backdropFilter="blur(10px)"
