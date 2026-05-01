@@ -49,7 +49,7 @@ export default function Home() {
 
   return (
     <Box
-      minH="104vh"
+      minH={{ base: "75vh", md: "100vh" }}
       position="relative"
       style={{
         backgroundImage: `url(${bg})`,
@@ -69,17 +69,17 @@ export default function Home() {
 
       <Flex
         position="absolute"
-        bottom="170px"
+        bottom={{ base: "90px", md: "170px" }}
         left="20px"
         direction="column"
         gap={3}
-        w="80%"
+        w={{ base: "80%", md: "70%" }}
         maxW="300px"
         zIndex="2"
       >
         <Button
           size="md"
-          w="70%"
+          w={{ base: "80%", md: "70%" }}
           borderRadius="14px"
           bg="yellow.400"
           color="black"
