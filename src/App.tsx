@@ -1,6 +1,7 @@
 import NavBar from "./components/my/NavBar";
 import Home from "./components/my/Home";
 import MenuSection from "./components/my/Menu";
+import LocationSection from "./components/my/LocationSection";
 import "./App.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <NavBar />
       <Home />
       <MenuSection />
+      <LocationSection />
     </>
   );
 }
