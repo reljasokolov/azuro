@@ -1,4 +1,4 @@
-import { Box, Flex, Button } from "@chakra-ui/react";
+import { Box, Flex, Button, Image } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import banner from "../../assets/banner.png";
 import bannerMobile from "../../assets/bannerMobile.png";
@@ -43,16 +43,19 @@ export default function Home() {
   const bg = isMobile ? bannerMobile : banner;
 
   return (
-    <Box
-      minH={{ base: "110vh", md: "100vh" }}
-      position="relative"
-      style={{
-        backgroundImage: `url(${bg})`,
-        backgroundSize: "cover",
-        backgroundPosition: isMobile ? "center 20%" : "center right",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
+    <Box minH={{ base: "100vh", md: "100vh" }} position="relative">
+      <Image
+        src={bg}
+        position="absolute"
+        top="0"
+        left="0"
+        w="100%"
+        h="100%"
+        objectFit="cover"
+        objectPosition={isMobile ? "center 40%" : "center right"}
+        zIndex={0}
+      />
+
       <Box
         position="absolute"
         top="0"
@@ -60,6 +63,7 @@ export default function Home() {
         w="100%"
         h="100%"
         bg="rgba(0,0,0,0.25)"
+        zIndex={1}
       />
 
       <Flex
