@@ -1,0 +1,1270 @@
+{
+ "primaryMap": {
+  "Doručak": ["Doručak / Breakfast"],
+  "Obroci": [
+    "Wraps & Sandwiches",
+    "Pica / Pizza",
+    "Pasta",
+    "Jela Od Mesa / Meat Dishes",
+    "Rižoto / Risotto",
+    "Slane palačinke / Savory Crepes",
+    "Pohovane palačinke / Fried Crepes"
+  ],
+  "Prilozi & Salate": ["Obrok Salate / Salad Meal", "Prilozi / Sides"],
+  "Deserti": ["Slatke palačinke / Sweet Crepes", "Bubble Waffles"],
+  "Pića": [
+    "Kafa / Coffee",
+    "Čaj / Tea",
+    "Topli napici / Hot Drinks",
+    "Milkshake",
+    "Sveže ceđeni sokovi / Fresh Juices",
+    "Voda / Water",
+    "Gazirani sokovi / Soft Drinks",
+    "Energetska pića / Energy Drinks"
+  ],
+  "Piva & Vina":[
+    "Pivo / Beer",
+  "Belo Vino",
+  "Roze Vino",
+  "Crveno Vino",
+  "Dezertna Vina",
+  "Mala Vina",
+  "Vino Čaša"
+],
+  "Žestoka Pića": [
+  "Vodka",
+  "Konjak",
+  "Gin",
+  "Tequila",
+  "Ouzo",
+  "Vermouth",
+  "Likeri"
+],
+"Viski": [
+    "Irski",
+    "Škotski",
+    "Single Malt",
+    "Bourbon"
+],
+"Rakija":[
+"Domaća žestoka",
+  "Rakija Takovo",
+  "Rakija Simex",
+  "Rakija Stara Sokolova"
+]
+},
+"food": [
+  {
+    "name": "Omlet Sa Sirom / Cheese Omelet",
+    "price": "260 RSD",
+    "category": "Doručak / Breakfast",
+    "desc": "(3 jaja, sir, paradajz, lepinja)"
+  },
+  {
+    "name": "Omlet Sa Šunkom / Omelet With Ham",
+    "price": "270 RSD",
+    "category": "Doručak / Breakfast",
+    "desc": "(3 jaja, šunka, paradajz, sir, lepinja)"
+  },
+  {
+    "name": "Omlet Sa Slaninom / Omelet With Bacon",
+    "price": "280 RSD",
+    "category": "Doručak / Breakfast",
+    "desc": "(3 jaja, slanina, paradajz, sir, lepinja)"
+  },
+  {
+    "name": "Omlet Sa Kulenom / Omelet with Kulen",
+    "price": "290 RSD",
+    "category": "Doručak / Breakfast",
+    "desc": "(3 jaja, kulen, paradajz, sir, lepinja)"
+  },
+  {
+    "name": "Omlet Sa Pečurkama / Omelet With Mushrooms",
+    "price": "250 RSD",
+    "category": "Doručak / Breakfast",
+    "desc": "(3 jaja, pečurke, paradajz, sir, lepinja)"
+  },
+  {
+    "name": "Ham & Eggs",
+    "price": "270 RSD",
+    "category": "Doručak / Breakfast",
+    "desc": "(3 jaja, šunka, paradajz, sir, lepinja)"
+  },
+  {
+    "name": "Bacon & Eggs",
+    "price": "280 RSD",
+    "category": "Doručak / Breakfast",
+    "desc": "(3 jaja, slanina, paradajz, sir, lepinja)"
+  },
+  {
+    "name": "Prženice / Bread Fritters",
+    "price": "270 RSD",
+    "category": "Doručak / Breakfast",
+    "desc": "(tost hleb, sir, paradajz)"
+  },
+  {
+    "name": "Punjene Prženice / Stuffed Bread Fritters",
+    "price": "390 RSD",
+    "category": "Doručak / Breakfast",
+    "desc": "(tost hleb, šunka, kačkavalj, zelena salata, paradajz)"
+  },
+  {
+    "name": "Azuro Doručak / Azuro Breakfast",
+    "price": "520 RSD",
+    "category": "Doručak / Breakfast",
+    "desc": "(kajgana, ljuta kobasica, pohovani kačkavalj, krastavac, paradajz, sir, tost hleb)"
+  },
+  {
+    "name": "Šunka Wrap / Ham Wrap",
+    "price": "380 RSD",
+    "category": "Wraps & Sandwiches",
+    "desc": "(šunka, kačkavalj, zelena salata, paradajz, kukuruz, pomfrit)"
+  },
+  {
+    "name": "Pileći Wrap / Chicken Wrap",
+    "price": "520 RSD",
+    "category": "Wraps & Sandwiches",
+    "desc": "(pileći file, kačkavalj, zelena salata, padarajz, kukuruz, pomfrit)"
+  },
+  {
+    "name": "Kulen Wrap",
+    "price": "430 RSD",
+    "category": "Wraps & Sandwiches",
+    "desc": "(kulen, kačkavalj, zelena salata, paradajz, kukuruz, pomfrit)"
+  },
+  {
+    "name": "Hrskave Rolnice Sa Šunkom / Crispy Ham Rolls",
+    "price": "350 RSD",
+    "category": "Wraps & Sandwiches",
+    "desc": "(šunka, kačkavalj, zelena salata, paradajz, tartar sos)"
+  },
+  {
+    "name": "Sendvič sa Tunjevinom / Tuna Sandwich",
+    "price": "320 RSD",
+    "category": "Wraps & Sandwiches",
+    "desc": "(tunjevina, paradajz, zelena salata, krastavac, rotkvice, pomfrit)"
+  },
+  {
+    "name": "Sendvič sa Šunkom / Ham Sandwich",
+    "price": "360 RSD",
+    "category": "Wraps & Sandwiches",
+    "desc": "(šunka, kačkavalj, pavlaka, paradajz, krastavac, pomfrit)"
+  },
+  {
+    "name": "Sendvič sa Kulenom / Kulen Sandwich",
+    "price": "390 RSD",
+    "category": "Wraps & Sandwiches",
+    "desc": "(kulen, kačkavalj, pavlaka, paradajz, krastavac, pomfrit)"
+  },
+  {
+    "name": "Sendvič Sa Grilovanom Piletinom / Grilled Chicken Sandwich",
+    "price": "480 RSD",
+    "category": "Wraps & Sandwiches",
+    "desc": "(pileći file, kačkavalj, paradajz, zelena salata, rotkvice, pavlaka, pomfrit)"
+  },
+  {
+    "name": "Club Sandwich",
+    "price": "360 RSD",
+    "category": "Wraps & Sandwiches",
+    "desc": "(šunka, kačkavalj, paradajz, zelena salata, pomrit)"
+  },
+  {
+    "name": "Cezar Salata / Caesar Salad",
+    "price": "470 RSD",
+    "category": "Obrok Salate / Salad Meal",
+    "desc": "(pileći file, krutoni, slanina, paradajz, zelena salata, parmezan, cezar dressing)"
+  },
+  {
+    "name": "Tuna Salata / Tuna Salad",
+    "price": "420 RSD",
+    "category": "Obrok Salate / Salad Meal",
+    "desc": "(tunjevina, jaje, zelena salata, paradajz, masline)"
+  },
+  {
+    "name": "Pileća Salata / Chicken Salad",
+    "price": "480 RSD",
+    "category": "Obrok Salate / Salad Meal",
+    "desc": "(pileći file, paradajz, krastavac, zelena salata, parmezan, pasta)"
+  },
+  {
+    "name": "Grčka Salata / Greek Salad",
+    "price": "410 RSD",
+    "category": "Obrok Salate / Salad Meal",
+    "desc": "(feta, paradajz, krastavac, masline, luk, paprika)"
+  },
+  {
+    "name": "Margarita",
+    "price": "460 RSD",
+    "category": "Pica / Pizza",
+    "desc": "(paradajz pire, kačkavalj, bosiljak)"
+  },
+  {
+    "name": "Capricciosa",
+    "price": "600 RSD",
+    "category": "Pica / Pizza",
+    "desc": "(šunka, kačkavalj, šampinjoni, paradajz pire)"
+  },
+
+  {
+    "name": "Quattro Stagioni",
+    "price": "720 RSD",
+    "category": "Pica / Pizza",
+    "desc": "(šunka, kulen, slanina, kačkavalj, šampinjoni, jaje, paradajz pire)"
+  },
+  {
+    "name": "Tonno",
+    "price": "500 RSD",
+    "category": "Pica / Pizza",
+    "desc": "(tunjevina, paprika, masline, šampinjoni, paradajz pire)"
+  },
+  {
+    "name": "Frutti Di Mare",
+    "price": "610 RSD",
+    "category": "Pica / Pizza",
+    "desc": "(morski plodovi, paprika, šampinjoni, masline, paradajz pire)"
+  },
+  {
+    "name": "Pepperoni",
+    "price": "600 RSD",
+    "category": "Pica / Pizza",
+    "desc": "(kulen, paprika, kačkavalj, paradajz pire)"
+  },
+  {
+    "name": "Carbonara",
+    "price": "400 RSD",
+    "category": "Pasta",
+    "desc": "(400g, špagete ili makarone, slanina, jaje, luk, neutralna pavlaka)"
+  },
+  {
+    "name": "Amatriciana",
+    "price": "360 RSD",
+    "category": "Pasta",
+    "desc": "(400g, špagete ili makarone, slanina, paradajz pire, luk)"
+  },
+  {
+    "name": "Frutti Di Mare Pasta",
+    "price": "480 RSD",
+    "category": "Pasta",
+    "desc": "(400g, špagete ili makarone, morski plodovi, paradajz pire, paprika, masline)"
+  },
+  {
+    "name": "Quattro Formaggi",
+    "price": "700 RSD",
+    "category": "Pasta",
+    "desc": "(400g, špagete ili makarone, kačkavalj, parmezan, mocarela, čedar, neutralna pavlaka)"
+  },
+  {
+    "name": "Pollo E Funghi",
+    "price": "510 RSD",
+    "category": "Pasta",
+    "desc": "(400g, špagete ili makarone, pileći file, šampinjoni, neutralna pavlaka, tikvice)"
+  },
+  {
+    "name": "Bolognese",
+    "price": "480 RSD",
+    "category": "Pasta",
+    "desc": "(400g, špagete ili makarone, mleveno meso, paradajz sos)"
+  },
+  {
+    "name": "Pileći Štapići / Chicken Sticks",
+    "price": "600 RSD",
+    "category": "Jela Od Mesa / Meat Dishes",
+    "desc": "(pileći file, pekarski krompir, tartar sos)"
+  },
+  {
+    "name": "Pileći File U Sosu Od Pečuraka / Chicken Fillet In Mushroom Sauce",
+    "price": "620 RSD",
+    "category": "Jela Od Mesa / Meat Dishes",
+    "desc": "(pileći file, šampinjoni, neutralna pavlaka, pirinač)"
+  },
+  {
+    "name": "Pileće Rolnice U Paradajz Sosu / Chicken Rolls In Tomato Sauce",
+    "price": "650 RSD",
+    "category": "Jela Od Mesa / Meat Dishes",
+    "desc": "(pileći file, slanina, paradajz pire, luk, pekarski krompir)"
+  },
+  {
+    "name": "Lask Alla Forno",
+    "price": "740 RSD",
+    "category": "Jela Od Mesa / Meat Dishes",
+    "desc": "(lask kare, kačkavalj, pirinač, paradajz, masline)"
+  },
+  {
+    "name": "Bečka Šnicla / Bačka Steak",
+    "price": "700 RSD",
+    "category": "Jela Od Mesa / Meat Dishes",
+    "desc": "(šnicla, pire, paradajz, krastavac, sir)"
+  },
+  {
+    "name": "Rižoto sa morskim plodovima / Seafood Risotto",
+    "price": "470 RSD",
+    "category": "Rižoto / Risotto",
+    "desc": "(pirinač, morski plodovi, paradajz pire)"
+  },
+  {
+    "name": "Rižoto sa povrćem / Risotto With Vegetables",
+    "price": "410 RSD",
+    "category": "Rižoto / Risotto",
+    "desc": "(pirinač, tikvice, masline, paprika, šampinjoni)"
+  },
+  {
+    "name": "Palačinke sa šunkom",
+    "price": "290 RSD",
+    "category": "Slane palačinke / Savory Crepes",
+    "desc": "(šunka, kačkavalj, pavlaka)"
+  },
+  {
+    "name": "Palačinke sa kulenom",
+    "price": "310 RSD",
+    "category": "Slane palačinke / Savory Crepes",
+    "desc": "(kulen, kačkavalj, pavlaka)"
+  },
+  {
+    "name": "Palačinke sa slaninom",
+    "price": "300 RSD",
+    "category": "Slane palačinke / Savory Crepes",
+    "desc": "(slanina, kačkavalj, pavlaka)"
+  },
+  {
+    "name": "Palačinke sa piletinom",
+    "price": "370 RSD",
+    "category": "Slane palačinke / Savory Crepes",
+    "desc": "(piletina, kačkavalj, pavlaka, pečurke)"
+  },
+  {
+    "name": "Pohovane palačinke sa šunkom",
+    "price": "340 RSD",
+    "category": "Pohovane palačinke / Fried Crepes",
+    "desc": "(šunka, kačkavalj, pavlaka)"
+  },
+  {
+    "name": "Pohovane palačinke sa kulenom",
+    "price": "360 RSD",
+    "category": "Pohovane palačinke / Fried Crepes",
+    "desc": "(kulen, kačkavalj, pavlaka)"
+  },
+  {
+    "name": "Pohovane palačinke sa slaninom",
+    "price": "360 RSD",
+    "category": "Pohovane palačinke / Fried Crepes",
+    "desc": "(slanina, kačkavalj, pavlaka)"
+  },
+  {
+    "name": "Pohovane palačinke sa piletinom",
+    "price": "400 RSD",
+    "category": "Pohovane palačinke / Fried Crepes",
+    "desc": "(piletina, kačkavalj, pavlaka, pečurke)"
+  },
+  {
+    "name": "Pomfrit / French Fries",
+    "price": "250 RSD",
+    "category": "Prilozi / Sides"
+  },
+  {
+    "name": "Pomfrit sa sirom / Fries with Cheese",
+    "price": "280 RSD",
+    "category": "Prilozi / Sides"
+  },
+  {
+    "name": "Pekarski krompir / Roasted Potatoes",
+    "price": "280 RSD",
+    "category": "Prilozi / Sides"
+  },
+  {
+    "name": "Pohovan kačkavalj / Fried Cheese",
+    "price": "400 RSD",
+    "category": "Prilozi / Sides"
+  },
+  {
+    "name": "Lepinja / Bun",
+    "price": "50 RSD",
+    "category": "Prilozi / Sides"
+  },
+  {
+    "name": "Palačinke sa kremom i Plazmom",
+    "price": "220 RSD",
+    "category": "Slatke palačinke / Sweet Crepes",
+    "desc": "(krem, plazma)"
+  },
+  {
+    "name": "Palačinke sa kremom, Plazmom i bananom",
+    "price": "260 RSD",
+    "category": "Slatke palačinke / Sweet Crepes",
+    "desc": "(krem, plazma, banana)"
+  },
+  {
+    "name": "Palačinke sa šumskim voćem",
+    "price": "270 RSD",
+    "category": "Slatke palačinke / Sweet Crepes",
+    "desc": "(šumsko voće)"
+  },
+  {
+    "name": "Palačinke sa kremom, bademom i karamelom",
+    "price": "300 RSD",
+    "category": "Slatke palačinke / Sweet Crepes",
+    "desc": "(krem, badem, karamela)"
+  },
+  {
+    "name": "Palačinke sa medom i orasima",
+    "price": "260 RSD",
+    "category": "Slatke palačinke / Sweet Crepes",
+    "desc": "(med, orasi)"
+  },
+  {
+    "name": "Bubble Waffle sa kremom i Plazmom",
+    "price": "300 RSD",
+    "category": "Bubble Waffles",
+    "desc": "(krem, plazma)"
+  },
+  {
+    "name": "Bubble Waffle sa kremom, Plazmom i bananom",
+    "price": "350 RSD",
+    "category": "Bubble Waffles",
+    "desc": "(krem, plazma, banana)"
+  },
+  {
+    "name": "Bubble Waffle sa kremom i malinom",
+    "price": "300 RSD",
+    "category": "Bubble Waffles",
+    "desc": "(krem, malina)"
+  },
+  {
+    "name": "Bubble Waffle sa šumskim voćem",
+    "price": "300 RSD",
+    "category": "Bubble Waffles",
+    "desc": "(šumsko voće)"
+  },
+  {
+    "name": "Bubble Waffle sa šumskim voćem, Plazmom i bananom",
+    "price": "350 RSD",
+    "category": "Bubble Waffles",
+    "desc": "(šumsko voće, plazma, banana)"
+  },
+  {
+    "name": "Bubble Waffle sa karamelom i bademima",
+    "price": "300 RSD",
+    "category": "Bubble Waffles",
+    "desc": "(karamela, bademi)"
+  },
+  {
+    "name": "Bubble Waffle sa belim kremom i kokosom",
+    "price": "300 RSD",
+    "category": "Bubble Waffles",
+    "desc": "(beli krem, kokos)"
+  },
+  {
+    "name": "Bubble Waffle sa kremom, karamelom, kikirikijem i Plazmom",
+    "price": "370 RSD",
+    "category": "Bubble Waffles",
+    "desc": "(krem, karamela, kikiriki, plazma)"
+  },
+  {
+    "name": "Espresso",
+    "price": "150 RSD",
+    "category": "Kafa / Coffee"
+  },
+  {
+    "name": "Macchiato",
+    "price": "150 RSD",
+    "category": "Kafa / Coffee"
+  },
+  {
+    "name": "Latte Macchiato",
+    "price": "160 RSD",
+    "category": "Kafa / Coffee"
+  },
+  {
+    "name": "Cappuccino",
+    "price": "150 RSD",
+    "category": "Kafa / Coffee"
+  },
+  {
+    "name": "Nescafe",
+    "price": "150 RSD",
+    "category": "Kafa / Coffee"
+  },
+  {
+    "name": "3 u 1",
+    "price": "130 RSD",
+    "category": "Kafa / Coffee"
+  },
+  {
+    "name": "Domaća kafa / Turkish Coffee",
+    "price": "110 RSD",
+    "category": "Kafa / Coffee"
+  },
+  {
+    "name": "Decaf Coffee",
+    "price": "140 RSD",
+    "category": "Kafa / Coffee"
+  },
+  {
+    "name": "Caramel Latte",
+    "price": "200 RSD",
+    "category": "Kafa / Coffee"
+  },
+  {
+    "name": "Choco Latte",
+    "price": "200 RSD",
+    "category": "Kafa / Coffee"
+  },
+  {
+    "name": "Vanilla Latte",
+    "price": "200 RSD",
+    "category": "Kafa / Coffee"
+  },
+  {
+    "name": "Iced Latte",
+    "price": "160 RSD",
+    "category": "Kafa / Coffee"
+  },
+
+  {
+    "name": "Caramel Iced Latte",
+    "price": "200 RSD",
+    "category": "Kafa / Coffee"
+  },
+  {
+    "name": "Choco Iced Latte",
+    "price": "200 RSD",
+    "category": "Kafa / Coffee"
+  },
+  {
+    "name": "Vanilla Iced Latte",
+    "price": "200 RSD",
+    "category": "Kafa / Coffee"
+  },
+  {
+    "name": "Mocha",
+    "price": "240 RSD",
+    "category": "Kafa / Coffee"
+  },
+  {
+    "name": "Baileys Coffee",
+    "price": "360 RSD",
+    "category": "Kafa / Coffee"
+  },
+  {
+    "name": "Čaj Julius / Julius Tea",
+    "price": "150 RSD",
+    "category": "Čaj / Tea"
+  },
+  {
+    "name": "Čaj Julius Organic / Julius Organic Tea",
+    "price": "150 RSD",
+    "category": "Čaj / Tea"
+  },
+  {
+    "name": "Crna topla čokolada / Dark Hot Chocolate",
+    "price": "180 RSD",
+    "category": "Topli napici / Hot Drinks"
+  },
+  {
+    "name": "Bela topla čokolada / White Hot Chocolate",
+    "price": "180 RSD",
+    "category": "Topli napici / Hot Drinks"
+  },
+  {
+    "name": "Kakao / Cocoa",
+    "price": "140 RSD",
+    "category": "Topli napici / Hot Drinks"
+  },
+  {
+    "name": "Milkshake jagoda / Strawberry Milkshake",
+    "price": "180 RSD",
+    "category": "Milkshake"
+  },
+  {
+    "name": "Milkshake vanila / Vanilla Milkshake",
+    "price": "180 RSD",
+    "category": "Milkshake"
+  },
+  {
+    "name": "Milkshake Plazma",
+    "price": "180 RSD",
+    "category": "Milkshake"
+  },
+  {
+    "name": "Ceđena pomorandža / Fresh Orange Juice",
+    "price": "250 RSD",
+    "category": "Sveže ceđeni sokovi / Fresh Juices"
+  },
+  {
+    "name": "Ceđeni grejp / Fresh Grapefruit Juice",
+    "price": "270 RSD",
+    "category": "Sveže ceđeni sokovi / Fresh Juices"
+  },
+  {
+    "name": "Ceđena jabuka / Fresh Apple Juice",
+    "price": "260 RSD",
+    "category": "Sveže ceđeni sokovi / Fresh Juices"
+  },
+  {
+    "name": "Ceđeni mix / Mixed Juice",
+    "price": "280 RSD",
+    "category": "Sveže ceđeni sokovi / Fresh Juices",
+    "desc": "(pomorandža, limun, grejp)"
+  },
+  {
+    "name": "Fitness mix",
+    "price": "280 RSD",
+    "category": "Sveže ceđeni sokovi / Fresh Juices",
+    "desc": "(jabuka, pomorandža, šargarepa)"
+  },
+  {
+    "name": "Anti-stres mix",
+    "price": "280 RSD",
+    "category": "Sveže ceđeni sokovi / Fresh Juices",
+    "desc": "(jabuka, pomorandža, šargarepa)"
+  },
+  {
+    "name": "Limunada",
+    "price": "120 RSD",
+    "category": "Sveže ceđeni sokovi / Fresh Juices"
+  },
+  {
+    "name": "Limunada sa sirupom",
+    "price": "180 RSD",
+    "category": "Sveže ceđeni sokovi / Fresh Juices",
+    "desc": "malina, jagoda, lubenica"
+  },
+  {
+    "name": "Limunada Azuro",
+    "price": "180 RSD",
+    "category": "Sveže ceđeni sokovi / Fresh Juices"
+  },
+  {
+    "name": "Rosa 0.33l",
+    "price": "130 RSD",
+    "category": "Voda / Water"
+  },
+  {
+    "name": "Rosa 0.75l",
+    "price": "200 RSD",
+    "category": "Voda / Water"
+  },
+  {
+    "name": "Gazirana voda Rosa 0.33l",
+    "price": "130 RSD",
+    "category": "Voda / Water"
+  },
+  {
+    "name": "Gazirana voda Rosa 0.75l",
+    "price": "200 RSD",
+    "category": "Voda / Water"
+  },
+  {
+    "name": "Romerquelle limunska trava 0.33l",
+    "price": "170 RSD",
+    "category": "Voda / Water"
+  },
+  {
+    "name": "Heba 1l",
+    "price": "150 RSD",
+    "category": "Voda / Water"
+  },
+  {
+    "name": "Coca-Cola 0.25l",
+    "price": "160 RSD",
+    "category": "Gazirani sokovi / Soft Drinks"
+  },
+  {
+    "name": "Coca-Cola Zero 0.25l",
+    "price": "160 RSD",
+    "category": "Gazirani sokovi / Soft Drinks"
+  },
+  {
+    "name": "Fanta 0.25l",
+    "price": "160 RSD",
+    "category": "Gazirani sokovi / Soft Drinks"
+  },
+  {
+    "name": "Sprite 0.25l",
+    "price": "160 RSD",
+    "category": "Gazirani sokovi / Soft Drinks"
+  },
+  {
+    "name": "Schweppes Bitter",
+    "price": "170 RSD",
+    "category": "Gazirani sokovi / Soft Drinks"
+  },
+  {
+    "name": "Schweppes Tonic",
+    "price": "170 RSD",
+    "category": "Gazirani sokovi / Soft Drinks"
+  },
+  {
+    "name": "Cocta",
+    "price": "140 RSD",
+    "category": "Gazirani sokovi / Soft Drinks"
+  },
+  {
+    "name": "Ultra 0.25l",
+    "price": "160 RSD",
+    "category": "Energetska pića / Energy Drinks"
+  },
+  {
+    "name": "Ultra Peach 0.25l",
+    "price": "160 RSD",
+    "category": "Energetska pića / Energy Drinks"
+  },
+  {
+    "name": "Red Bull 0.25l",
+    "price": "330 RSD",
+    "category": "Energetska pića / Energy Drinks"
+  },
+  {
+    "name": "Lav Premium 0.33l",
+    "price": "170 RSD",
+    "category": "Pivo / Beer"
+  },
+  {
+    "name": "Tuborg Green 0.33l",
+    "price": "220 RSD",
+    "category": "Pivo / Beer"
+  },
+  {
+    "name": "Carlsberg 0.4l",
+    "price": "180 RSD",
+    "category": "Pivo / Beer"
+  },
+  {
+    "name": "Budweiser 0.33l",
+    "price": "250 RSD",
+    "category": "Pivo / Beer"
+  },
+  {
+    "name": "Kronenbourg Blanc 0.33l",
+    "price": "250 RSD",
+    "category": "Pivo / Beer"
+  },
+  {
+    "name": "Erdinger 0.33l",
+    "price": "350 RSD",
+    "category": "Pivo / Beer"
+  },
+  {
+  "name": "Somersby Apple",
+  "price": "140 RSD",
+  "category": "Pivo / Beer"
+},
+{
+  "name": "Somersby Pear",
+  "price": "140 RSD",
+  "category": "Pivo / Beer"
+},
+{
+  "name": "Somersby Mango & Lime",
+  "price": "140 RSD",
+  "category": "Pivo / Beer"
+},
+{
+  "name": "Somersby Passion Fruit & Orange",
+  "price": "140 RSD",
+  "category": "Pivo / Beer"
+},
+{
+  "name": "Somersby Raspberry & Lime",
+  "price": "140 RSD",
+  "category": "Pivo / Beer"
+},
+{
+  "name": "Somersby Strawberry & Lime 0.0%",
+  "price": "140 RSD",
+  "category": "Pivo / Beer"
+},
+{
+  "name": "Točeno Tuborg 0.33l",
+  "price": "140 RSD",
+  "category": "Pivo / Beer"
+},
+{
+  "name": "Točeno Tuborg 0.5l",
+  "price": "210 RSD",
+  "category": "Pivo / Beer"
+},
+{
+  "name": "Točeno Carlsberg 0.33l",
+  "price": "180 RSD",
+  "category": "Pivo / Beer"
+},
+{
+  "name": "Točeno Carlsberg 0.5l",
+  "price": "270 RSD",
+  "category": "Pivo / Beer"
+},{
+  "name": "V Vodka",
+  "price": "150 RSD",
+  "category": "Vodka",
+  "desc" : "0.05l"
+},
+{
+  "name": "Smirnoff",
+  "price": "250 RSD",
+  "category": "Vodka",
+    "desc" : "0.05l"
+
+},
+{
+  "name": "Grey Goose",
+  "price": "500 RSD",
+  "category": "Vodka",  
+  "desc" : "0.05l"
+
+},{
+  "name": "Plavi Džin",
+  "price": "150 RSD",
+  "category": "Gin",
+    "desc" : "0.05l"
+
+},
+{
+  "name": "Beefeater",
+  "price": "200 RSD",
+  "category": "Gin",
+    "desc" : "0.05l"
+
+},
+{
+  "name": "Beefeater Pink",
+  "price": "200 RSD",
+  "category": "Gin",
+    "desc" : "0.05l"
+
+},
+{
+  "name": "Bombay Sapphire",
+  "price": "300 RSD",
+  "category": "Gin",
+    "desc" : "0.05l"
+
+},
+{
+  "name": "Agavita",
+  "price": "150 RSD",
+  "category": "Tequila",
+  "desc": "0.033l"
+},
+{
+  "name": "Brandy Badel",
+  "price": "150 RSD",
+  "category": "Konjak",
+  "desc": "0.05l"
+},
+{
+  "name": "Agavita",
+  "price": "150 RSD",
+  "category": "Tequila",
+  "desc": "0.033l"
+},
+{
+  "name": "Ouzo 7",
+  "price": "160 RSD",
+  "category": "Ouzo",
+  "desc": "0.05l"
+},
+{
+  "name": "Vermouth Svetli",
+  "price": "150 RSD",
+  "category": "Vermouth",
+  "desc": "0.1l"
+},
+{
+  "name": "Martini Bianco",
+  "price": "220 RSD",
+  "category": "Vermouth",
+  "desc": "0.1l"
+},
+{
+  "name": "Gorki List",
+  "price": "170 RSD",
+  "category": "Likeri",
+  "desc": "0.05l"
+},
+{
+  "name": "Jagermeister",
+  "price": "250 RSD",
+  "category": "Likeri",
+  "desc": "0.05l"
+},
+{
+  "name": "Campari",
+  "price": "250 RSD",
+  "category": "Likeri",
+  "desc": "0.05l"
+},
+{
+  "name": "Baileys",
+  "price": "270 RSD",
+  "category": "Likeri",
+  "desc": "0.05l"
+},
+{
+  "name": "Pina Colada",
+  "price": "180 RSD",
+  "category": "Likeri",
+  "desc": "0.05l"
+},
+{
+  "name": "Malibu",
+  "price": "200 RSD",
+  "category": "Likeri",
+  "desc": "0.05l"
+},
+{
+  "name": "Jameson",
+  "price": "300 RSD",
+  "category": "Irski",
+  "desc": "0.05l"
+},
+{
+  "name": "Tullamore Dew",
+  "price": "350 RSD",
+  "category": "Irski",
+  "desc": "0.05l"
+},
+{
+  "name": "Bushmills",
+  "price": "300 RSD",
+  "category": "Irski",
+  "desc": "0.05l"
+},
+{
+  "name": "Ballantines",
+  "price": "220 RSD",
+  "category": "Škotski",
+  "desc": "0.05l"
+},
+{
+  "name": "Johnnie Walker Red",
+  "price": "250 RSD",
+  "category": "Škotski",
+  "desc": "0.05l"
+},
+{
+  "name": "Johnnie Walker Black",
+  "price": "500 RSD",
+  "category": "Škotski",
+  "desc": "0.05l"
+},
+{
+  "name": "Chivas Regal",
+  "price": "450 RSD",
+  "category": "Škotski",
+  "desc": "0.05l"
+},
+{
+  "name": "Dimple",
+  "price": "450 RSD",
+  "category": "Škotski",
+  "desc": "0.05l"
+},
+{
+  "name": "Glenlivet",
+  "price": "550 RSD",
+  "category": "Single Malt",
+  "desc": "0.05l"
+},
+{
+  "name": "Glenfiddich",
+  "price": "550 RSD",
+  "category": "Single Malt",
+  "desc": "0.05l"
+},
+{
+  "name": "Glenmorangie",
+  "price": "550 RSD",
+  "category": "Single Malt",
+  "desc": "0.05l"
+},
+{
+  "name": "Jack Daniels",
+  "price": "450 RSD",
+  "category": "Bourbon",
+  "desc": "0.05l"
+},
+{
+  "name": "Jim Beam",
+  "price": "250 RSD",
+  "category": "Bourbon",
+  "desc": "0.05l"
+},
+{
+  "name": "Vinjak",
+  "price": "140 RSD",
+  "category": "Domaća žestoka",
+  "desc": "0.05l"
+},
+{
+  "name": "Stomaklija",
+  "price": "140 RSD",
+  "category": "Domaća žestoka",
+  "desc": "0.05l"
+},
+{
+  "name": "Loza 13. Jul",
+  "price": "170 RSD",
+  "category": "Domaća žestoka",
+  "desc": "0.05l"
+},
+{
+  "name": "Lincura",
+  "price": "150 RSD",
+  "category": "Rakija Takovo",
+  "desc": "0.05l"
+},
+{
+  "name": "Viljamovka",
+  "price": "230 RSD",
+  "category": "Rakija Takovo",
+  "desc": "0.05l"
+},
+{
+  "name": "Dunja",
+  "price": "150 RSD",
+  "category": "Rakija Takovo",
+  "desc": "0.05l"
+},
+{
+  "name": "Kajsija",
+  "price": "150 RSD",
+  "category": "Rakija Takovo",
+  "desc": "0.05l"
+},
+{
+  "name": "Šljiva",
+  "price": "150 RSD",
+  "category": "Rakija Takovo",
+  "desc": "0.05l"
+},
+{
+  "name": "Dunja",
+  "price": "180 RSD",
+  "category": "Rakija Simex",
+  "desc": "0.05l"
+},
+{
+  "name": "Kajsija",
+  "price": "180 RSD",
+  "category": "Rakija Simex",
+  "desc": "0.05l"
+},
+{
+  "name": "Dunja",
+  "price": "400 RSD",
+  "category": "Rakija Stara Sokolova",
+  "desc": "0.05l"
+},
+{
+  "name": "Šljiva",
+  "price": "400 RSD",
+  "category": "Rakija Stara Sokolova",
+  "desc": "0.05l"
+},
+{
+  "name": "Stock",
+  "price": "180 RSD",
+  "category": "Konjak",
+  "desc": "0.05l"
+},
+{
+  "name": "Hennessy",
+  "price": "560 RSD",
+  "category": "Konjak",
+  "desc": "0.05l"
+},
+  {
+    "name": "Muštuluk - Tamnjanika",
+    "price": "2200 RSD",
+    "category": "Belo Vino",
+    "desc": "Vinarija Čoka • 0.75l"
+  },
+  {
+    "name": "Grof Lederer - Sauvignon Blanc",
+    "price": "1500 RSD",
+    "category": "Belo Vino",
+    "desc": "Vinarija Čoka • 0.75l"
+  },
+  {
+    "name": "Tikveš Chardonnay",
+    "price": "1000 RSD",
+    "category": "Belo Vino",
+    "desc": "Vinarija Tikveš • 0.75l"
+  },
+  {
+    "name": "Tikveš Sauvignon Blanc",
+    "price": "1500 RSD",
+    "category": "Belo Vino",
+    "desc": "Vinarija Tikveš • 0.75l"
+  },
+
+  {
+    "name": "Kovačević Chardonnay",
+    "price": "2200 RSD",
+    "category": "Belo Vino",
+    "desc": "0.75l"
+  },
+  {
+    "name": "Kovačević Sauvignon",
+    "price": "2200 RSD",
+    "category": "Belo Vino",
+    "desc": "0.75l"
+  },
+  {
+    "name": "Cuvee Piquant",
+    "price": "1800 RSD",
+    "category": "Belo Vino",
+    "desc": "Kovačević • 0.75l"
+  },
+  {
+    "name": "Fresco Bianco",
+    "price": "1500 RSD",
+    "category": "Belo Vino",
+    "desc": "Penušavo • 0.75l"
+  },
+
+  {
+    "name": "Tema",
+    "price": "2200 RSD",
+    "category": "Belo Vino",
+    "desc": "Aleksandrović • 0.75l"
+  },
+  {
+    "name": "Trijumf Gold",
+    "price": "3000 RSD",
+    "category": "Belo Vino",
+    "desc": "Aleksandrović • 0.75l"
+  },
+
+  {
+    "name": "Žuti Cvet",
+    "price": "2000 RSD",
+    "category": "Belo Vino",
+    "desc": "Aleksić • 0.75l"
+  },
+  {
+    "name": "Bonaca",
+    "price": "1800 RSD",
+    "category": "Belo Vino",
+    "desc": "Aleksić • 0.75l"
+  },
+  {
+    "name": "Tamjanika",
+    "price": "2200 RSD",
+    "category": "Belo Vino",
+    "desc": "Spasić • 0.75l"
+  },
+
+  {
+    "name": "Tikveš Roze",
+    "price": "1000 RSD",
+    "category": "Roze Vino",
+    "desc": "0.75l"
+  },
+  {
+    "name": "Varijanta",
+    "price": "2000 RSD",
+    "category": "Roze Vino",
+    "desc": "Aleksandrović • 0.75l"
+  },
+  {
+    "name": "Barbara",
+    "price": "1700 RSD",
+    "category": "Roze Vino",
+    "desc": "Aleksić • 0.75l"
+  },
+
+  {
+    "name": "Aurelius",
+    "price": "2000 RSD",
+    "category": "Crveno Vino",
+    "desc": "Kovačević • 0.75l"
+  },
+  {
+    "name": "Regent",
+    "price": "3000 RSD",
+    "category": "Crveno Vino",
+    "desc": "Aleksandrović • 0.75l"
+  },
+  {
+    "name": "Prokupac",
+    "price": "2800 RSD",
+    "category": "Crveno Vino",
+    "desc": "Aleksandrović • 0.75l"
+  },
+  {
+    "name": "Kardoš",
+    "price": "1700 RSD",
+    "category": "Crveno Vino",
+    "desc": "Aleksić • 0.75l"
+  },
+  {
+    "name": "Dert",
+    "price": "1500 RSD",
+    "category": "Crveno Vino",
+    "desc": "Stari Dani • 0.75l"
+  },
+
+  {
+    "name": "Crna Ribizla",
+    "price": "1500 RSD",
+    "category": "Dezertna Vina"
+  },
+  {
+    "name": "Kupinovo Vino",
+    "price": "1000 RSD",
+    "category": "Dezertna Vina"
+  },
+
+  {
+    "name": "Žuti Cvet - Tamnjanika",
+    "price": "300 RSD",
+    "category": "Mala Vina",
+    "desc": "0.187l"
+  },
+  {
+    "name": "Bonaca - Chardonnay",
+    "price": "300 RSD",
+    "category": "Mala Vina",
+    "desc": "0.187l"
+  },
+  {
+    "name": "Lederer - Chardonnay",
+    "price": "300 RSD",
+    "category": "Mala Vina",
+    "desc": "0.187l"
+  },
+  {
+    "name": "Barbara",
+    "price": "300 RSD",
+    "category": "Mala Vina",
+    "desc": "0.187l"
+  },
+  {
+    "name": "Nostalgija",
+    "price": "300 RSD",
+    "category": "Mala Vina",
+    "desc": "0.187l"
+  },
+
+  {
+    "name": "Belo Vino (Raj)",
+    "price": "160 RSD",
+    "category": "Vino Čaša",
+    "desc": "0.125l"
+  },
+  {
+    "name": "Roze Vino (Raj)",
+    "price": "160 RSD",
+    "category": "Vino Čaša",
+    "desc": "0.125l"
+  },
+  {
+    "name": "Crveno Vino (Raj)",
+    "price": "160 RSD",
+    "category": "Vino Čaša",
+    "desc": "0.125l"
+  }
+]
+
+}
