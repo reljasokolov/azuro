@@ -5,6 +5,36 @@ import bannerMobile from "../../assets/bannerMobile.png";
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  const smoothScrollTo = (targetId: string, offset = -50, duration = 700) => {
+    const el = document.getElementById(targetId);
+
+    if (!el) return;
+
+    const start = window.pageYOffset;
+
+    const target = el.getBoundingClientRect().top + window.pageYOffset + offset;
+
+    const startTime = performance.now();
+
+    const easeInOut = (t: number) =>
+      t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+
+    const animate = (currentTime: number) => {
+      const elapsed = currentTime - startTime;
+
+      const progress = Math.min(elapsed / duration, 1);
+
+      const ease = easeInOut(progress);
+
+      window.scrollTo(0, start + (target - start) * ease);
+
+      if (progress < 1) {
+        requestAnimationFrame(animate);
+      }
+    };
+
+    requestAnimationFrame(animate);
+  };
 
   useEffect(() => {
     const handleResize = () => {
@@ -19,7 +49,7 @@ export default function Home() {
 
   return (
     <Box
-      minH="100vh"
+      minH="104vh"
       position="relative"
       style={{
         backgroundImage: `url(${bg})`,
@@ -69,6 +99,7 @@ export default function Home() {
           color="white"
           border="1px solid rgba(255,255,255,0.4)"
           _hover={{ bg: "whiteAlpha.300" }}
+          onClick={() => smoothScrollTo("menu")}
         >
           Pogledaj meni
         </Button>

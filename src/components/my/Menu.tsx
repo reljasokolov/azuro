@@ -24,12 +24,12 @@ export default function MenuSection() {
   });
 
   return (
-    <Box bg="#093C5D" py={20} px={6} id="menu">
+    <Box bg="#093C5D" py={10} px={6} id="menu">
       <Box maxW="1100px" mx="auto">
-        <Text fontSize="32px" fontWeight="bold" mb={6} color="white">
+        <Text fontSize="32px" fontWeight="bold" mb={2} color="white">
           Meni
         </Text>
-
+        <Box w="60px" h="3px" bg="yellow.400" borderRadius="full" mb={8} />
         <Box position="sticky" top="0" zIndex={10} bg="#093C5D" pb={3}>
           <Box position="relative">
             <Box
@@ -198,7 +198,13 @@ export default function MenuSection() {
               <Text color="white" fontWeight="600" mb={1}>
                 {item.name}
               </Text>
-
+              <Box
+                w="100px"
+                h="3px"
+                bg="yellow.400"
+                borderRadius="full"
+                mb={2}
+              />
               {item.desc && (
                 <Text fontSize="xs" color="whiteAlpha.700" mb={2}>
                   {item.desc}
