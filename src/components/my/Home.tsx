@@ -69,7 +69,7 @@ export default function Home() {
 
       <Flex
         position="absolute"
-        bottom={{ base: "90px", md: "170px" }}
+        bottom={{ base: "12vh", md: "170px" }}
         left="20px"
         direction="column"
         gap={3}
@@ -89,10 +89,9 @@ export default function Home() {
         >
           Poruči odmah
         </Button>
-
         <Button
           size="md"
-          w="70%"
+          w={{ base: "80%", md: "70%" }}
           borderRadius="14px"
           bg="whiteAlpha.200"
           backdropFilter="blur(10px)"

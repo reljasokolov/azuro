@@ -12,7 +12,6 @@ export default function GallerySection() {
         <Text fontSize="28px" fontWeight="bold" color="white" mb={10}>
           Galerija
         </Text>
-        src/components/my/Menu.tsx
         <Box
           display="grid"
           gridTemplateColumns={{
